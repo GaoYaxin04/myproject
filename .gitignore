@@ -1,0 +1,10 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore SQLite database file
+db.sqlite3
+
+# Ignore static and templates directories (generated during collectstatic)
+/static/
+/templates/
